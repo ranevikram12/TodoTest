@@ -14,51 +14,7 @@ import Login from './Login';
 
 
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    width: "100%",
-    backgroundColor: '#fff444',
-    alignItems: 'center',
-    justifyContent: 'center',
 
-
-  },
-
-  supportingText: {
-    fontSize: 20,
-    textAlign: "center",
-    marginTop: 15
-  },
-
-
-  bottomContainer: {
-    height: 70,
-    alignSelf: 'stretch',
-    backgroundColor: '#242134',
-    marginBottom: 5,
-    marginRight: 10,
-    marginLeft: 10,
-    borderRadius: 15,
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-    alignItems: 'center',
-
-  },
-  bottomContainerView: {
-    padding: 3
-  },
-
-  bottomContainerImage: {
-    alignSelf: 'center',
-
-  },
-
-  bottomContainerText: {
-    color: 'white',
-    textAlign: 'center'
-  },
-})
 
 const Drawer = createDrawerNavigator();
 const Stack = createNativeStackNavigator();
