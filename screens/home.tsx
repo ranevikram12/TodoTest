@@ -24,7 +24,7 @@ const HomeScreen = ({ navigation }: { navigation: any }) => {
 
 
 
-  const data = useSelector((state: RootState) => state.counter.data);
+  const data = useSelector((state: RootState) => state.data);
 
   const dispatch = useDispatch();
   const [message, setMessage] = useState("");
